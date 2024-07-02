@@ -669,9 +669,10 @@ body {
     align-items: center;
 }
 
-.leftReviewContent{
-    width:300px;
+.leftReviewContent {
+    width: 300px;
 }
+
 .reviewText {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
@@ -714,10 +715,10 @@ body {
     top: 140px;
 }
 
-.centerText{
+.centerText {
     position: absolute;
-    top:180px;
-    width:350px;
+    top: 180px;
+    width: 350px;
 }
 
 .reviewTextCenter {
@@ -746,7 +747,7 @@ body {
     color: white;
 }
 
-.rightReview{
+.rightReview {
     display: flex;
     position: absolute;
     background-color: #362e2e4d;
@@ -759,9 +760,171 @@ body {
     align-items: center;
 }
 
-.suffix{
-    position:absolute;
+.suffix {
+    position: absolute;
     z-index: 1;
-    top:410px;
+    top: 410px;
     margin-left: 370px;
+}
+
+.buttonOnBottom {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 6350px;
+    justify-content: center;
+}
+
+.alleButton {
+    border-color: white;
+    background-color: #B50014;
+    color: white;
+    border-width: 1px;
+    border-radius: 150px;
+    width: 174px;
+    height: 47px;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.leftSliderD {
+    position: absolute;
+    background-color: black;
+    border-color: black;
+    top: 310px;
+    margin-left: -500px;
+}
+
+.rightSliderD {
+    position: absolute;
+    margin-left: 500px;
+    top: 310px;
+    background-color: black;
+}
+
+.footerSegment {
+    display: block;
+    position: absolute;
+    top: 6500px;
+    width: 100%;
+    height: 150px;
+}
+
+.upperPart {
+    background-color: #B50014;
+    width: 100%;
+    height: 120px;
+}
+
+.lowerPart {
+    background-color: #66000B;
+    width: 100%;
+    height: 30px;
+}
+
+.icons {
+    position: absolute;
+    margin-left: 300px;
+    top: 10px;
+    width: 20px;
+    height: 120px;
+}
+
+.contactText {
+    position: absolute;
+    margin-left: 330px;
+    top: -10px;
+    width: 190px;
+    height: 100px;
+}
+
+.contacts {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+}
+
+.middleLogo {
+    position: absolute;
+    height: 120px;
+    width: 100px;
+    margin-left: 910px;
+}
+
+.bottomLogo {
+    width: 100%;
+    height: 100%;
+}
+
+.paragraphBottom {
+    position: absolute;
+    top: 33px;
+    margin-left: 1300px;
+}
+
+.social {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: white;
+}
+
+.socialMediaIcons {
+    position: absolute;
+    top: 42px;
+    margin-left: 1480px;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    gap: 15px;
+}
+
+.sMedia {
+    width: 50px;
+    height: 30px;
+}
+
+.lowerLeft {
+    position: absolute;
+    top: 110px;
+    margin-left: 500px;
+    height: 10px;
+}
+
+.lowerRight {
+    position: absolute;
+    top: 110px;
+    margin-left: 1300px;
+    height: 10px;
+}
+
+.rights {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF80;
+}
+
+.madeBy {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF80;
+}
+
+.companyName{
+    font-style: italic;
+    color: #ffffff;
 }
