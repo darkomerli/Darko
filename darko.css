@@ -508,4 +508,46 @@ body {
   font-weight: 400;
   line-height: 22px;
   text-align: center;
+}
+
+.genussnetzLogo {
+  display: flex;
+  position: absolute;
+  top: 4700px;
+  gap: 160px;
+  margin-left: 500px;
+}
+
+.logoTitle {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+  color: white;
+}
+
+.siteVisit {
+  border-color: white;
+  background-color: #B50014;
+  color: white;
+  border-width: 1px;
+  border-radius: 150px;
+  width: 174px;
+  height: 47px;
+  margin-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.linesWithLogo {
+  display: flex;
+  position: absolute;
+  top: 5050px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
 }/*# sourceMappingURL=darko.css.map */
