@@ -1,5 +1,6 @@
 <!--napraviti header deo
     kreirati zamracen deo, nacin -->
+<!-- before after-->
 <!DOCTYPE html>
 <html>
 
@@ -12,13 +13,18 @@
 
     <title> Sajt </title>
     <link href="darko.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div class="test">
         <div class="header">
-            <img class="logo" src="slike\logo.svg">
+            <div class = "Cookie" id = "popupCookie">
+                <p class = "cookiesText">We collect cookies to analyze our website traffic and performance; we never collect any personal data</p>
+                <button  id = "popup" class = "cookiesClose"> Close </button>
+            </div>
             <div class="prvi">
+                <img class="logo" src="slike\logo.svg">
                 <div class="meni">
                     <p class="headerp"> Die Metzgerei </p>
                     <p class="headerp"> Dry Aged </p>
@@ -32,6 +38,28 @@
                         <img class="pdfmali" src="slike\Frame.svg">
                         <p class="headerp"> download</p>
                     </div>
+                    <div class="kontaktX">
+                        <img class="pdfmaliD" src="slike\Frame.svg">
+                        <p class="headerpD"> download</p>
+                    </div>
+                    <div class="hamburgerMenu" id = "klik">
+                        <img class="linijica" src="slike\linijicaMeni.svg">
+                        <img class="linijica" src="slike\linijicaMeni.svg">
+                        <img class="linijica" src="slike\linijicaMeni.svg">
+                    </div>
+                    <div class="dark" id = "mode">
+                        <button class = "darkMode" id = "darkModeButton"> Dark Mode</button>
+                    </div>
+                    <div class="meniHamburger" id="meni">
+                        <p class="menip"> Die Metzgerei </p>
+                        <p class="menip"> Dry Aged </p>
+                        <p class="menip"> Fleischversand </p>
+                        <p class="menip"> Events/Kurse </p>
+                        <p class="menip"> Partyservice </p>
+                        <p class="menip"> Tagesessen </p>
+                        <p class="menip"> Impressum </p>
+                        <p class="menip"> Kontakt </p>
+                    </div>
                 </div>
                 <div class="drugi">
                     <div class="vreme">
@@ -44,7 +72,8 @@
                     <img id="slika" class="slike" src="slike\image 14.jpg">
                     <div class="tekstSlika">
                         <div class="naslov">
-                            <H1 class="paragrafNaslov">Heiko Brath<br>Metzgermeister</H1>
+                            <H1 class="paragrafNaslov">Heiko Brath<br class="spacing"><span class="spanX">
+                                </span>Metzgermeister</H1>
                         </div>
                         <div class="paragraf">
                             <p class="paragrafTekst">Deutsches Ipsum Dolor deserunt dissentias Grimms Märchen et. Tollit
@@ -52,7 +81,7 @@
                                 pertinax. </p>
                         </div>
                     </div>
-                    <div class = "photoSlider">
+                    <!-- <div class = "photoSlider">
                         <div class = "leftSlidersF">
                             <img src = "slike\left.svg">
                         </div>
@@ -66,9 +95,8 @@
                         <div class = "rightSlidersF">
                             <img src = "slike\right.svg">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-            </div>
             <div class="sledeci">
                 <div class="leva">
                     <div class="naslovi">
@@ -101,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="treci">
+            <!-- <div class="treci">
                 <div class="levad">
                     <h2 class="hproba">Buchen Sie den Grillkurs jetzt</h2>
                     <div class="lista">
@@ -324,9 +352,9 @@
                         <p class = "madeBy"> Code and design by <span class = "companyName"><u> StudioPresent </u> </span></p>
                     </div>
                 </div>
+            </div> --> 
             </div>
         </div>
-    </div>
 </body>
 <script src="func.js"></script>
 

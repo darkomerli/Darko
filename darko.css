@@ -2,44 +2,43 @@ body {
   margin: 0%;
   padding: 0%;
   background-color: black;
+  margin: auto;
+  width: 100%;
+  padding: auto;
 }
 
 .header {
   width: 100%;
-  height: 1000px;
-  gap: 0px;
-  opacity: 0px;
   display: block;
   background-color: transparent;
-  position: relative;
 }
 
 .test {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .prvi {
   position: absolute;
   width: 100%;
+  height: 6vw;
   background: #B50014;
-  top: 0px;
-  z-index: 0;
-}
-
-.ispodh {
-  position: absolute;
+  z-index: 9;
+  top: 0.01vw;
 }
 
 .meni {
   margin-inline-start: 23%;
   display: flex;
   height: 93px;
-  opacity: 0px;
   align-content: flex;
   align-items: center;
-  top: 0px;
-  gap: 50px;
+  gap: 4%;
   background: #B50014;
+  justify-content: right;
+  margin-right: 10%;
+  top: 0.01vw;
 }
 
 .kontakt {
@@ -48,34 +47,65 @@ body {
   align-items: center;
   gap: 5px;
   background: #B50014;
+  top: 0.01vw;
+}
+
+.kontaktX {
+  position: absolute;
+  display: none;
+  align-content: flex;
+  align-items: center;
+  gap: 5px;
+  background: #B50014;
+  top: 25%;
+  margin-right: 12vw;
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.dark {
+  width: 5vw;
+  height: 1.5vw;
+  margin-right: -7vw;
+  top: 2vw;
+}
+
+.darkMode {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: #535353;
+  font-size: 0.8vw;
+  width: 100%;
+  height: 100%;
+  text-wrap: nowrap;
 }
 
 .drugi {
   position: absolute;
   display: flex;
-  align-items: center;
   width: 100%;
-  height: 30px;
-  top: 90px;
-  gap: 0px;
-  opacity: 0px;
+  height: 1.4vw;
+  top: 5.7vw;
   background: black;
+  z-index: 4;
 }
 
 .drugip {
   color: white;
-  width: 434px;
+  width: 250%;
   height: 16px;
   left: 1188px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 14px;
+  font-size: 0.7vw;
   font-weight: 400;
   line-height: 16.41px;
 }
 
 .span {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 14px;
+  font-size: 0.7vw;
   font-weight: 700;
   line-height: 16.41px;
 }
@@ -85,11 +115,13 @@ body {
   gap: 5px;
   align-items: center;
   align-content: flex;
-  margin-inline-start: 65%;
+  margin-left: 60%;
+  margin-right: 10%;
 }
 
 .satic {
   display: flex;
+  width: 0.7vw;
 }
 
 .headerp {
@@ -100,30 +132,42 @@ body {
   color: white;
 }
 
+.headerpD {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 18.75px;
+  color: white;
+}
+
+.pdfmaliD {
+  width: 2vw;
+  height: 2vw;
+}
+
 .logo {
   position: absolute;
-  width: 177.2px;
-  height: 177.2px;
+  width: 9vw;
+  height: 9vw;
   left: 10%;
-  z-index: 2;
+  z-index: 5;
 }
 
 .slike {
   position: absolute;
-  top: 120px;
+  top: 6.7vw;
   width: 100%;
+  height: 35vw;
+  z-index: 0;
 }
 
 .tekstSlika {
   display: block;
   position: absolute;
-  width: 629px;
-  height: 348px;
   align-content: center;
-  gap: 0px;
-  opacity: 0px;
   background: rgba(0, 0, 0, 0.3019607843);
-  top: 287px;
+  top: 17vw;
+  margin-right: 70%;
 }
 
 .photoSlider {
@@ -131,21 +175,21 @@ body {
   position: absolute;
   height: 100px;
   width: 300px;
-  gap: 20px;
-  top: 730px;
-  margin-left: 850px;
+  gap: 30px;
+  margin-left: 43%;
+  top: 600%;
 }
 
 .leftSlidersF {
   position: absolute;
-  top: -7px;
-  margin-left: -50px;
+  top: -8%;
+  margin-left: -18%;
 }
 
 .rightSlidersF {
   position: absolute;
-  top: -7px;
-  margin-left: 230px;
+  top: -8%;
+  margin-left: 75%;
 }
 
 .dots {
@@ -154,24 +198,30 @@ body {
   gap: 30px;
 }
 
+.naslov {
+  margin-right: 10%;
+}
+
 .paragrafNaslov {
   margin-inline-start: 43%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Condensed;
-  font-size: 38px;
+  font-size: 1.9vw;
   font-weight: 700;
-  line-height: 44.53px;
+  line-height: 110%;
   color: #FFFFFF;
-  margin-right: 70px;
+}
+
+.paragraf {
+  margin-right: 10%;
 }
 
 .paragrafTekst {
   margin-inline-start: 43%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 16px;
+  font-size: 0.9vw;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 1.1vw;
   color: #FFFFFF;
-  margin-right: 70px;
 }
 
 .sledeci {
@@ -195,6 +245,10 @@ body {
   height: 400px;
   margin-inline-start: 55%;
   top: 30px;
+}
+
+.spanX {
+  display: none;
 }
 
 .tekst {
@@ -951,4 +1005,498 @@ body {
 .companyName {
   font-style: italic;
   color: #ffffff;
+}
+
+.hamburgerMenu {
+  position: absolute;
+  top: 25%;
+  width: 2.5vw;
+  height: 2.5vw;
+  margin-right: 1vw;
+  display: none;
+  flex-direction: column;
+  gap: -1px;
+}
+
+.linijica {
+  width: 50%;
+  height: 50%;
+}
+
+.meniHamburger {
+  position: absolute;
+  display: none;
+  width: 10vw;
+  height: 20vw;
+  top: 5.2vw;
+  background-color: #B50014;
+  padding: auto;
+  padding-left: 1vw;
+  text-align: left;
+  z-index: 7;
+}
+
+.menip {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 1vw;
+}
+
+.Cookie {
+  background-color: rgba(0, 0, 0, 0.8235294118);
+  border-style: solid;
+  border-color: #66000B;
+  width: 100%;
+  position: fixed;
+  height: 30%;
+  display: block;
+  padding: auto;
+  text-align: center;
+  padding-top: 5%;
+  top: 70%;
+  z-index: 15;
+}
+
+.cookiesText {
+  color: white;
+}
+
+.cookiesClose {
+  border-color: white;
+  background-color: #B50014;
+  color: white;
+  border-width: 1px;
+  border-radius: 150px;
+  width: 174px;
+  height: 47px;
+  margin-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.dugmePopup {
+  background-color: black;
+  width: 10%;
+}
+
+@media screen and (max-width: 1700px) {
+  .prvi {
+    width: 100%;
+  }
+  .dark {
+    position: absolute;
+    width: 8vw;
+    height: 2.5vw;
+    margin-right: 15vw;
+    top: 27%;
+  }
+  .darkMode {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: #535353;
+    font-size: 1.3vw;
+    width: 100%;
+    height: 100%;
+    text-wrap: nowrap;
+  }
+  .meni {
+    justify-content: right;
+  }
+  .headerp {
+    display: none;
+  }
+  .kontakt {
+    display: none;
+  }
+  .hamburgerMenu {
+    display: flex;
+  }
+  .kontaktX {
+    display: flex;
+  }
+  .spacing {
+    display: none;
+  }
+  .spanX {
+    display: flex;
+  }
+  .sledeci {
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    top: 850%;
+    width: 80vw;
+  }
+  .leva {
+    position: absolute;
+    width: 40vw;
+    height: 1vw;
+    margin-inline-start: 10%;
+    top: 2vw;
+  }
+  .desna {
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    margin-inline-start: 70%;
+    top: 7vw;
+  }
+  .tekst {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2vw;
+    font-weight: 300;
+    line-height: 2vw;
+    text-align: left;
+  }
+  .naslovDole {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    color: white;
+  }
+  .naslovi {
+    position: absolute;
+  }
+  .podnaslovi {
+    position: absolute;
+    top: 6vw;
+  }
+  .jedanDeo {
+    top: 12vw;
+    position: absolute;
+  }
+  .tekstPod {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 1vw;
+    text-align: left;
+    color: white;
+  }
+  .velika {
+    width: 110%;
+    height: 100%;
+  }
+  .maleSlike {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 60%;
+    top: 25vw;
+  }
+  .mala {
+    width: 15vw;
+    height: 8vw;
+  }
+  .dugmad {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 45vw;
+    margin-inline-start: 4%;
+  }
+  .dugme {
+    border-color: white;
+    background-color: #B50014;
+    color: white;
+    border-width: 1px;
+    border-radius: 150px;
+    width: 15vw;
+    height: 5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1700px) and (max-width: 10000px) {
+  .meniHamburger {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hamburgerMenu {
+    position: absolute;
+    top: 13%;
+    width: 14vw;
+    height: 5vw;
+    margin-right: -9vw;
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+  }
+  .meniHamburger {
+    position: absolute;
+    display: none;
+    width: 30vw;
+    height: 60vw;
+    top: 10vw;
+    background-color: #B50014;
+    border-color: #66000B;
+    border-width: 3px;
+    border-style: solid;
+    padding: auto;
+    padding-left: 1vw;
+    text-align: left;
+    z-index: 7;
+    margin-right: -9vw;
+  }
+  .menip {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+  }
+  .kontaktX {
+    position: absolute;
+    display: flex;
+    align-content: flex;
+    align-items: center;
+    gap: 5px;
+    background: #B50014;
+    top: 20%;
+    margin-right: 20vw;
+    width: 5vw;
+    height: 2.5vw;
+  }
+  .dark {
+    position: absolute;
+    width: 12vw;
+    height: 4vw;
+    margin-right: 27vw;
+    top: 17%;
+  }
+  .darkMode {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: #535353;
+    font-size: 2vw;
+    width: 100%;
+    height: 100%;
+    text-wrap: nowrap;
+  }
+  .headerpD {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2.5vw;
+    font-weight: 700;
+    line-height: 18.75px;
+    color: white;
+  }
+  .pdfmaliD {
+    width: 4vw;
+    height: 4vw;
+  }
+  .linijica {
+    width: 30%;
+    height: 40%;
+  }
+  .tekstSlika {
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3019607843);
+    top: 62.7vw;
+    width: 99%;
+    margin-left: 0px;
+  }
+  .spanX {
+    display: flex;
+  }
+  .logo {
+    width: 20vw;
+    height: 50vw;
+    top: -16vw;
+    left: 5%;
+  }
+  .prvi {
+    position: absolute;
+    width: 100%;
+    height: 20vw;
+    background: #B50014;
+    z-index: 3;
+    top: 0.01vw;
+  }
+  .drugi {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 3vw;
+    top: 10vw;
+    background: black;
+    z-index: 4;
+  }
+  .slike {
+    position: absolute;
+    top: 13vw;
+    width: 100%;
+    height: 50vw;
+    z-index: 0;
+  }
+  .naslov {
+    text-align: center;
+    width: 100%;
+  }
+  .paragrafNaslov {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Condensed;
+    font-size: 9vw;
+    font-weight: 700;
+    line-height: 110%;
+    color: #FFFFFF;
+    margin-inline-start: 0%;
+  }
+  .paragraf {
+    text-align: center;
+    width: 70%;
+    padding-left: 14vw;
+  }
+  .paragrafTekst {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 4vw;
+    font-weight: 300;
+    line-height: 5vw;
+    color: #FFFFFF;
+    margin-inline-start: 0vw;
+  }
+  .drugip {
+    color: white;
+    width: 100%;
+    height: 16px;
+    left: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 16.41px;
+  }
+  .span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 16.41px;
+  }
+  .vreme {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-content: flex;
+    margin-left: 26%;
+  }
+  .satic {
+    display: flex;
+    width: 2vw;
+  }
+  .sledeci {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 600%;
+  }
+  .leva {
+    position: absolute;
+    width: 40vw;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 20%;
+  }
+  .desna {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    margin-inline-start: 10%;
+  }
+  .tekst {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 4vw;
+    font-weight: 300;
+    line-height: 4vw;
+    text-align: center;
+  }
+  .naslovDole {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 9vw;
+    font-weight: 700;
+    line-height: 8vw;
+    text-align: left;
+    color: white;
+  }
+  .naslovi {
+    position: absolute;
+    width: 50vw;
+    top: 730%;
+    margin-inline-start: 20%;
+  }
+  .podnaslovi {
+    position: absolute;
+    width: 50vw;
+    top: 900%;
+  }
+  .jedanDeo {
+    top: 1000%;
+    width: 70vw;
+    height: 10vw;
+    position: absolute;
+  }
+  .tekstPod {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 5vw;
+    color: white;
+  }
+  .velika {
+    width: 100%;
+    height: 40%;
+  }
+  .maleSlike {
+    position: absolute;
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    height: 80%;
+    top: 100%;
+  }
+  .mala {
+    width: 33%;
+    height: 100%;
+    padding-top: 40%;
+  }
+  .dugmad {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    top: 170vw;
+    width: 150%;
+    height: 100%;
+    position: relative;
+    margin-left: 0%;
+  }
+  .dugme {
+    border-color: white;
+    background-color: #B50014;
+    color: white;
+    border-width: 1px;
+    border-radius: 150px;
+    width: 25vw;
+    height: 10vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=darko.css.map */
