@@ -5,6 +5,9 @@
 <html>
 
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,12 +20,14 @@
 </head>
 
 <body>
+    <div class = "divForPopu" id = "divForPopup">
+        <div class = "Cookie" id = "popupCookie">
+            <p class = "cookiesText">We collect cookies to analyze our website traffic and performance; we never collect any personal data</p>
+            <button  id = "popup" class = "cookiesClose"> Close </button>
+        </div>
+    </div>
     <div class="test">
         <div class="header">
-            <div class = "Cookie" id = "popupCookie">
-                <p class = "cookiesText">We collect cookies to analyze our website traffic and performance; we never collect any personal data</p>
-                <button  id = "popup" class = "cookiesClose"> Close </button>
-            </div>
             <div class="prvi">
                 <img class="logo" src="slike\logo.svg">
                 <div class="meni">
@@ -48,7 +53,7 @@
                         <img class="linijica" src="slike\linijicaMeni.svg">
                     </div>
                     <div class="dark" id = "mode">
-                        <button class = "darkMode" id = "darkModeButton"> Dark Mode</button>
+                        <button class = "darkMode" id = "darkModeButton"> Mode</button>
                     </div>
                     <div class="meniHamburger" id="meni">
                         <p class="menip"> Die Metzgerei </p>
@@ -61,22 +66,22 @@
                         <p class="menip"> Kontakt </p>
                     </div>
                 </div>
-                <div class="drugi">
+                <div class="drugi" id ="druga">
                     <div class="vreme">
                         <img class="satic" src="slike\Vector.svg">
-                        <p class="drugip"><span class="span"> Opentime: </span> Di. - Fr.: 07:00-13:00 und 15:00-18:30.
-                            Sa.: 07:30 - 12:30 </p>
+                        <p class="drugip" id="drugiParagrafi"><span class="span" id = "spanId"> Opentime: </span> Di. - Fr.: 07:00-13:00 und 15:00-18:30.
+                            Sa.: 07:30 - 12:30 </p> 
                     </div>
                 </div>
                 <div class="ispodH">
                     <img id="slika" class="slike" src="slike\image 14.jpg">
-                    <div class="tekstSlika">
-                        <div class="naslov">
-                            <H1 class="paragrafNaslov">Heiko Brath<br class="spacing"><span class="spanX">
+                    <div class="tekstSlika" id="idtekstSlike">
+                        <div class="naslov" >
+                            <H1 class="paragrafNaslov"id="tekstSlikeNaslov">Heiko Brath<br class="spacing"><span class="spanX">
                                 </span>Metzgermeister</H1>
                         </div>
                         <div class="paragraf">
-                            <p class="paragrafTekst">Deutsches Ipsum Dolor deserunt dissentias Grimms Märchen et. Tollit
+                            <p class="paragrafTekst" id = "tekstSlikeParagraf">Deutsches Ipsum Dolor deserunt dissentias Grimms Märchen et. Tollit
                                 argumentum ius an. Pfannkuchen lobortis elaboraret per ne, nam Aperol Spritz probatus
                                 pertinax. </p>
                         </div>
@@ -100,17 +105,17 @@
             <div class="sledeci">
                 <div class="leva">
                     <div class="naslovi">
-                        <h2 class="naslovDole"> Dry aged </h2>
+                        <h2 class="naslovDole" id = "dryAged"> Dry aged </h2>
                     </div>
                     <div class="podnaslovi">
-                        <p class="tekstPod"> Alte Wutz, Dry Aged</p>
+                        <p class="tekstPod" id = "AlteWutz"> Alte Wutz, Dry Aged</p>
                     </div>
                     <div class="jedanDeo">
-                        <p class="tekst"> Halt amet, consectetur Handtasche elit, sed do eiusmod tempor Stuttgart ut
+                        <p class="tekst" id = "teksstovi"> Halt amet, consectetur Handtasche elit, sed do eiusmod tempor Stuttgart ut
                             labore et dolore magna 99 Luftballons Ut enim ad minim veniam, Turnbeutel nostrud
                             exercitation ullamco laboris nisi Sprechen Sie deutsch aliquip ex ea commodo consequat.
                             Wiener Schnitzel aute irure dolor in reprehenderit Guten Tag mollit anim Stuttgart. </p>
-                        <p class="tekst"> id latine indoctum complectitur HugoClub Mate mea meliore denique nominavi id.
+                        <p class="tekst" id = "tekstoviDeo"> id latine indoctum complectitur HugoClub Mate mea meliore denique nominavi id.
                             Ohrwurm expetenda nam an, his ei Reise euismod assentior. </p>
                     </div>
                     <div class="dugmad">
@@ -129,18 +134,18 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="treci">
+            <div class="treci">
                 <div class="levad">
                     <h2 class="hproba">Buchen Sie den Grillkurs jetzt</h2>
                     <div class="lista">
-                        <ul>
+                        <ul class ="ul">
                             <li class="item"> professioneller Lehrer </li>
                             <li class="item"> ausgezeichneter </li>
                             <li class="item"> 1 Tag </li>
                             <li class="item"> lernen Sie die Kunst des Grillens </li>
                         </ul>
                     </div>
-                    <button class="dugmeE"> Grillkurs </button>
+                    <button class="dugmeE" id="grilkursDugme"> Grillkurs </button>
                 </div>
                 <div class=desnad>
                     <img class="slikaX" src="slike\5.jpg">
@@ -148,18 +153,18 @@
             </div>
             <div class="noviDiv">
                 <div class="unutra">
-                    <h2 class="najveciTekst">Das Handwerk </h2>
-                    <p class="tekstPod1">alles über unsere Hausgemachte Produkte </p>
-                    <p class="tekstovi"> Halt amet, consectetur Handtasche elit, sed do eiusmod tempor Stuttgart ut
+                    <h2 class="najveciTekst" id="najveciTekstovi">Das Handwerk </h2>
+                    <p class="tekstPod1" id = "pod1tekst">alles über unsere Hausgemachte Produkte </p>
+                    <p class="tekstovi" id = "pod2tekst"> Halt amet, consectetur Handtasche elit, sed do eiusmod tempor Stuttgart ut
                         labore et dolore magna 99 Luftballons Ut enim ad minim veniam, Turnbeutel nostrud exercitation
                         ullamco laboris nisi Sprechen Sie deutsch aliquip ex ea commodo consequat. </p>
-                    <p class="tekstovi"> Wiener Schnitzel aute irure dolor in Guten Tag mollit anim Stuttgart.</p>
-                    <p class="tekstovi"> id latine indoctum complectitur HugoClub Mate mea meliore denique nominavi id.
+                    <p class="tekstovi" id = pod3tekst> Wiener Schnitzel aute irure dolor in Guten Tag mollit anim Stuttgart.</p>
+                    <p class="tekstovi" id = pod4tekst> id latine indoctum complectitur HugoClub Mate mea meliore denique nominavi id.
                         Ohrwurm expetenda nam an, his ei Reise euismod assentior</p>
                     <button class="dugmeX"> Das Handwerk </button>
                 </div>
             </div>
-            <div class="cetvrti">
+            <!--<div class="cetvrti">
                 <div class="hr">
                     <div class="zaLinijuPrvu">
                         <hr class="linija">
@@ -357,5 +362,6 @@
         </div>
 </body>
 <script src="func.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
 </html>
